@@ -6,7 +6,7 @@
 
 <h1 align="center">Awesome Prometheus Toolkit - By Avilash</h1>
 <h3 align="center">
-	<a href="https://awesome-prometheus-toolkit-avilash.vercel.app/">Live URL</a>
+	<a href="https://awesome-prometheus-toolkit-avilash.vercel.app/" target="_blank">Live URL</a>
 </h3>
 
 <!-- TABLE OF CONTENTS -->
@@ -35,7 +35,7 @@
 ## About The Project
 
 <div align="center">
-    <img src="/assets/HomePage.png" alt="Logo" width="100%" >
+    <img src="https://github.com/AvilashChak/awesome-prometheus-toolkit/blob/main/src/assets/HomePage.png" alt="Logo" width="100%" >
 </div>
 
 <h1>Awesome Prometheus Toolkit</h1>
