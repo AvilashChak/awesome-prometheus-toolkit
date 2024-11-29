@@ -1,20 +1,9 @@
-import Logo1 from '../assets/icon1.svg';
-import Logo2 from '../assets/icon2.svg';
-import Logo3 from '../assets/icon3.svg';
-import Logo4 from '../assets/icon4.svg';
-import Logo5 from '../assets/icon5.svg';
-import Logo6 from '../assets/icon6.svg';
-import Logo7 from '../assets/icon7.svg';
-import Logo8 from '../assets/icon8.svg';
-
 const formatName = (name) => {
     const formattedName = name.replace(/([a-z])([A-Z])/g, '$1 $2');
     return formattedName.charAt(0).toUpperCase() + formattedName.slice(1);
 };
 
 const AlertList = ({ groups, onViewRules }) => {
-
-    const logos = [Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8];
 
     return (
         <div className="container mx-auto px-6">
@@ -28,7 +17,7 @@ const AlertList = ({ groups, onViewRules }) => {
                     >
                         <div className="flex items-center mb-4">
                             <img
-                                src={logos[groupIndex]}
+                                src={group.logo}
                                 alt={group.name}
                                 className="h-6 w-6"
                             />
